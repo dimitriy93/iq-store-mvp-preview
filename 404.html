@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <title>IQ Store</title>
     <script type="text/javascript">
-        // Этот скрипт берет текущий путь (например, /catalog) и превращает его в query-параметр
-        // Затем делает редирект на главную страницу, сохраняя историю переходов.
-        var pathSegmentsToKeep = 1; // 1 segment для репозитория проекта (iq-store-mvp-preview)
-
+        var pathSegmentsToKeep = 1;
         var l = window.location;
         l.replace(
             l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
